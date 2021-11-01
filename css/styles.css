@@ -16,3 +16,8 @@ html {
   font-size: 62.5%;
   line-height: 1.5;
 }
+.container {
+  min-width: 350px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
