@@ -17,7 +17,35 @@ html {
   line-height: 1.5;
 }
 .container {
-  min-width: 350px;
+  width: 95%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.description {
+  margin: 3.2rem 0;
+}
+.description__title {
+  margin-bottom: 1.2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.description__content {
+  position: relative;
+}
+.descriptions__dots::before {
+  content: url(../assets/6dots.svg);
+  position: absolute;
+  top: 0.2rem;
+}
+.description__paragraph {
+  margin: 0 0 1.2rem 2.4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--gray-two);
+}
+.description img {
+  width: 100%;
+  border-radius: 1.2rem;
 }
