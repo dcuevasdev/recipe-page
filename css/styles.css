@@ -22,6 +22,9 @@ html {
   margin: 0 auto;
 }
 
+/*===================
+  Section description
+=====================*/
 .description {
   margin: 3.2rem 0;
 }
@@ -48,4 +51,45 @@ html {
 .description img {
   width: 100%;
   border-radius: 1.2rem;
+}
+
+/*============
+  Section time
+==============*/
+.time {
+  margin-bottom: 2.4rem;
+}
+.time__servings {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.time__servings-item,
+.time__item-text {
+  margin-left: 0.4rem;
+}
+.time__servings-item h3,
+.time__item-text h3 {
+  margin-bottom: -0.2rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--gray-three);
+}
+.time__servings-item small,
+.time__item-text small {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--background);
+}
+.time__cook {
+  display: flex;
+}
+.time__item {
+  display: inherit;
+}
+.time__item:not(.time__item-three) {
+  margin-right: 4.8rem;
+}
+.time__item-text small {
+  color: var(--gray-one);
 }
