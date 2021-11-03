@@ -117,11 +117,15 @@ html {
   margin-top: 3.2rem;
 }
 .ingredients__item {
+  display: flex;
   margin-bottom: 0.8rem;
   font-size: 1.4rem;
 }
 .ingredients__item-italic {
   font-style: italic;
+}
+.ingredients__item label {
+  margin-left: 0.8rem;
 }
 input[type="checkbox"]:hover,
 .ingredients__item label:hover {
