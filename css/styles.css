@@ -26,7 +26,7 @@ html {
   Section description
 =====================*/
 .description {
-  margin: 3.2rem 0;
+  margin: 2.4rem 0;
 }
 .description__title {
   margin-bottom: 1.2rem;
@@ -92,4 +92,38 @@ html {
 }
 .time__item-text small {
   color: var(--gray-one);
+}
+
+/*===================
+  Section ingredients
+=====================*/
+.ingredients {
+  margin-bottom: 2.4rem;
+}
+.ingredients__title {
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--gray-one);
+}
+.ingredients__subtitle {
+  margin: 1.6rem 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--gray-one);
+}
+.ingredients__subtitle-two {
+  margin-top: 3.2rem;
+}
+.ingredients__item {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+}
+.ingredients__item-italic {
+  font-style: italic;
+}
+input[type="checkbox"]:hover,
+.ingredients__item label:hover {
+  cursor: pointer;
 }
