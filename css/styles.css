@@ -197,6 +197,18 @@ input[type="checkbox"]:hover,
   Media Queries
 ===============*/
 @media (min-width: 768px) {
+  /*===================
+  Section description
+=====================*/
+  .description__title {
+    font-size: 4.8rem;
+  }
+  .description__content {
+    width: 69.8rem;
+  }
+  .description__paragraph {
+    font-size: 1.6rem;
+  }
   /*=============
   Section Content
 =================*/
