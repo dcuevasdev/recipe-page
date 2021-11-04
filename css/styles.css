@@ -131,3 +131,44 @@ input[type="checkbox"]:hover,
 .ingredients__item label:hover {
   cursor: pointer;
 }
+
+/*====================
+  Section instructions
+======================*/
+.instructions {
+  margin-bottom: 2.4rem;
+}
+.instructions__title {
+  margin-bottom: 2.4rem;
+  font-size: 2.4rem;
+  color: var(--gray-one);
+}
+.instructions__item {
+  display: flex;
+}
+.instructions__number {
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 1.8rem;
+  text-align: center;
+  border-radius: 0.4rem;
+  color: white;
+  background-color: var(--background);
+}
+.instructions__step {
+  width: 30rem;
+  margin: 0 0 1.6rem 1.6rem;
+  font-size: 1.6rem;
+}
+.instructions__source {
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--gray-three);
+}
+.instructions__source a {
+  color: var(--gray-three);
+  text-decoration: none;
+}
+.instructions__source a:hover {
+  cursor: pointer;
+}
