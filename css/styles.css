@@ -172,3 +172,23 @@ input[type="checkbox"]:hover,
 .instructions__source a:hover {
   cursor: pointer;
 }
+
+/*======
+  Footer
+========*/
+.footer {
+  margin-bottom: 1.6rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--gray-one);
+}
+.footer a {
+  text-decoration: none;
+  color: var(--gray-one);
+  cursor: pointer;
+  transition: all 300ms;
+}
+.footer a:hover {
+  font-size: 1.6rem;
+  color: var(--background);
+}
