@@ -192,3 +192,62 @@ input[type="checkbox"]:hover,
   font-size: 1.6rem;
   color: var(--background);
 }
+
+/*=============
+  Media Queries
+===============*/
+@media (min-width: 768px) {
+  /*=============
+  Section Content
+=================*/
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  /*=============
+  Section Time
+=================*/
+  .time {
+    order: 2;
+    width: 15.6rem;
+    height: 20rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 0 2rem var(--gray-three);
+  }
+  .time__servings {
+    width: 10rem;
+    margin: 1.6rem auto;
+  }
+  .time__cook {
+    display: block;
+  }
+  .time__item {
+    display: flex;
+    width: 10rem;
+    margin: 0.8rem auto;
+  }
+  .time__item:not(.time__item-three) {
+    margin: 1.6rem auto;
+  }
+  /*=================
+  Section Ingredients
+=====================*/
+  .ingredients {
+    width: 55rem;
+  }
+  /*====================
+  Section instructions
+======================*/
+  .instructions__step {
+    width: 52.8rem;
+  }
+  .instructions__source {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .description img {
+    height: 47rem;
+  }
+}
